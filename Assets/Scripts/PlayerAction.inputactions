@@ -1,0 +1,170 @@
+{
+    "name": "PlayerAction",
+    "maps": [
+        {
+            "name": "Keyboard",
+            "id": "9ebfcdd4-f3a4-4dfa-ba88-3cdf85fdc93e",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Button",
+                    "id": "7a7ac74f-46fd-4921-ac13-0d0f3738ddb6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Attack",
+                    "type": "Button",
+                    "id": "c9a763c6-7875-4859-9bf6-20c3726022b0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Arm / Disarm",
+                    "type": "Button",
+                    "id": "9558149c-6f34-4254-ad99-d855d5e9c46c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MousePosition",
+                    "type": "Value",
+                    "id": "c3916839-3be6-4fcc-b6fd-97bc26933926",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "UseItem",
+                    "type": "Button",
+                    "id": "4309f72b-e6cc-446c-976e-e6feffd743a5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "0949b240-f9fd-48a7-a5e1-0e3a44ae043e",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "42e9e559-9e63-4ba6-84a4-8ba91a54ff58",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "82467ed0-8620-4f30-bf8f-15b3d6ac91b7",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "87779c72-3efa-406c-af2a-f5baeb822310",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "a37799fb-1b42-4a5b-83dc-ce89b0fc923d",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "3f7474ed-5685-49ee-b19c-ce3b6a8714eb",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "10ebf972-ea09-4805-88c6-0fa7a721d063",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Arm / Disarm",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "62f1392a-f724-42e6-81d7-8cd03dd08452",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e4e471d2-cb1f-4cd9-9fe3-06e66bead7cc",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UseItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7062706e-49bc-4606-b471-b393e37bd7ae",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UseItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "64b74b8c-a6c9-4a9b-80a5-ff8be5761081",
+            "actions": [],
+            "bindings": []
+        }
+    ],
+    "controlSchemes": []
+}
