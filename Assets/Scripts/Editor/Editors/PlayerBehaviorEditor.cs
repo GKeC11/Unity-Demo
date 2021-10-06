@@ -1,8 +1,10 @@
-
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEditor.Animations;
+using UnityEditorInternal;
 using UnityEngine;
+using UnityEngine.ProBuilder;
+using AnimatorController = UnityEditor.Animations.AnimatorController;
 
 [CustomEditor(typeof(PlayerBehavior))]
 public class PlayerBehaviorEditor : BaseEditor<PlayerBehavior>
@@ -17,22 +19,22 @@ public class PlayerBehaviorEditor : BaseEditor<PlayerBehavior>
     public int _layerIndex;
 
     private Animator _animator;
-
-    private SerializedProperty _stateIndexProp;
+    
     private SerializedProperty _layerIndexProp;
-    private SerializedProperty _targetStateProp;
+
+    private ReorderableList _targetStateList;
 
     private void OnEnable()
     {
-        _stateIndexProp = serializedObject.FindProperty("_stateIndex");
         _layerIndexProp = serializedObject.FindProperty("_layerIndex");
-        _targetStateProp = serializedObject.FindProperty("_targetState");
+
+        _targetStateList = null;
     }
 
     public override void OnInspectorGUI()
     {
         DrawDefaultInspector();
-        
+
         serializedObject.Update();
 
         _layerNames.Clear();
@@ -55,30 +57,28 @@ public class PlayerBehaviorEditor : BaseEditor<PlayerBehavior>
             {
                 _layerNames.Add(_animatorController.layers[i].name);
             }
-            
+
             _layerIndex = _layerIndexProp.intValue;
             _layerIndex = EditorGUILayout.Popup("Layer", _layerIndex, _layerNames.ToArray());
             _layerIndexProp.intValue = _layerIndex;
-            
+
             // 添加 SubMachine 和 AnimatorState
             var stateMachine = _animatorController.layers[_layerIndex].stateMachine;
             CollectStateNames(stateMachine);
 
-            if (_states.Count > 0)
+            if (_targetStateList == null)
             {
-                _stateIndex = _stateIndexProp.intValue;
-                _stateIndex = EditorGUILayout.Popup("State", _stateIndex, _stateNames.ToArray());
-                _stateIndexProp.intValue = _stateIndex;
-                _targetStateProp.intValue = _states[_stateIndex];
-                
+                InitTargetStateList();
             }
-            
+
+
+            _targetStateList.DoLayoutList();
         }
 
         if (EditorGUI.EndChangeCheck())
         {
             _target._stateParentLookup = _stateParentLookup;
-            
+
             serializedObject.ApplyModifiedProperties();
             Debug.Log("Editor Change");
         }
@@ -132,5 +132,53 @@ public class PlayerBehaviorEditor : BaseEditor<PlayerBehavior>
 
         _stateNames.Add(displayName);
         _states.Add(hash);
+    }
+
+    private readonly string[] _playerStateArray = new[] {"Normal", "Combat", "Dead"};
+    private void InitTargetStateList()
+    {
+        _targetStateList = new ReorderableList(serializedObject,
+            serializedObject.FindProperty("_targetStates"),
+            true, true, true, true);
+
+        float vSpace = 2;
+        float hSpace = 3;
+
+        _targetStateList.drawHeaderCallback = (rect) => { EditorGUI.LabelField(rect, "State"); };
+
+        _targetStateList.drawElementCallback = (rect, index, active, focused) =>
+        {
+            rect.y += vSpace;
+            rect.height = EditorGUIUtility.singleLineHeight;
+            rect.width /= 2;
+
+            var targetPair = _targetStateList.serializedProperty.GetArrayElementAtIndex(index);
+            var targetState = targetPair.FindPropertyRelative("_targetState");
+            var cur = GetStateHashIndex(targetState.intValue);
+            int select = EditorGUI.Popup(rect, cur, _stateNames.ToArray());
+            targetState.intValue = _states[select];
+            
+            rect.x += rect.width + hSpace; 
+            var playerState = targetPair.FindPropertyRelative("_playerState");
+            var curPlayerState = playerState.intValue;
+            int selectPlayerState = EditorGUI.Popup(rect, curPlayerState, _playerStateArray);
+            playerState.intValue = selectPlayerState;
+        };
+    }
+
+    private int GetStateHashIndex(int hash)
+    {
+        int index = -1;
+
+        foreach (var state in _states)
+        {
+            index++;
+            if (state == hash)
+            {
+                return index;
+            }
+        }
+
+        return 0;
     }
 }

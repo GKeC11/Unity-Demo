@@ -22,7 +22,7 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Arm / Disarm",
+                    "name": "Disarm",
                     "type": "Button",
                     "id": "9558149c-6f34-4254-ad99-d855d5e9c46c",
                     "expectedControlType": "Button",
@@ -41,6 +41,30 @@
                     "name": "UseItem",
                     "type": "Button",
                     "id": "4309f72b-e6cc-446c-976e-e6feffd743a5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Reload",
+                    "type": "Button",
+                    "id": "71980b15-7d4a-417a-8cfd-6a164e4a5db6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "FreeCamera",
+                    "type": "Button",
+                    "id": "b646edda-8e04-4f1b-ad61-a1a52f2c0a74",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Drop Item",
+                    "type": "Button",
+                    "id": "113773a8-37ad-4bdf-85ee-d860662e09eb",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -117,10 +141,10 @@
                     "name": "",
                     "id": "10ebf972-ea09-4805-88c6-0fa7a721d063",
                     "path": "<Keyboard>/r",
-                    "interactions": "",
+                    "interactions": "Hold(duration=1,pressPoint=1)",
                     "processors": "",
                     "groups": "",
-                    "action": "Arm / Disarm",
+                    "action": "Disarm",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -156,14 +180,134 @@
                     "action": "UseItem",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1792c251-c0f9-4722-8c72-da5a72aa802f",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UseItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a845e0bf-88d9-447d-b389-14d6e73176af",
+                    "path": "<Keyboard>/4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UseItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f5b696f3-befd-422f-9710-6932ace08276",
+                    "path": "<Keyboard>/5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UseItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "24bd2d13-044b-41b0-98e8-c7306007976a",
+                    "path": "<Keyboard>/6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UseItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "41aecc1f-b0d8-41b9-a14f-d9415b204959",
+                    "path": "<Keyboard>/7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UseItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e06a681a-6ac0-48ca-be6c-9d64505e545a",
+                    "path": "<Keyboard>/8",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UseItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c570aae6-826c-44d5-aafc-4f902d0ba66a",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reload",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f20d1568-c5f7-4029-bc3d-3df17921d3d1",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FreeCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1479620d-b590-4d7a-a3f7-c3c378a709cb",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drop Item",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
         {
-            "name": "UI",
+            "name": "GameControl",
             "id": "64b74b8c-a6c9-4a9b-80a5-ff8be5761081",
-            "actions": [],
-            "bindings": []
+            "actions": [
+                {
+                    "name": "PauseMenu",
+                    "type": "Button",
+                    "id": "389600d0-1c0d-45f5-bddd-f823634b7b08",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8bd4b3e6-b95c-4392-ab6b-8e01fcd0f348",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PauseMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []

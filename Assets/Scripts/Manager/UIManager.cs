@@ -1,18 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
+using Manager.Utils;
 using UnityEngine;
+using Utils;
 
-public class UIManager : MonoBehaviour
+namespace Manager
 {
-    // Start is called before the first frame update
-    void Start()
+    public class UIManager : Singleton<UIManager>, IManager
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public GameObject _gameplayUIPrefab;
+
+        public void Initialize()
+        {
+            var gameplayUI = Instantiate(_gameplayUIPrefab);
+            
+            GameplayManager._instance._gameplayUI = gameplayUI;
+        }
     }
 }

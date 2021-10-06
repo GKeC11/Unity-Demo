@@ -1,34 +1,24 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using Cinemachine;
+using Manager.Utils;
 using UnityEngine;
+using Utils;
 
-public class CameraManager : Singleton<CameraManager>
+namespace Manager
 {
-    public Camera gameplayCamera;
-    public CinemachineVirtualCamera framingCamera;
-    public CinemachineVirtualCamera threePersonCamera;
-    
-    private void OnEnable()
+    public class CameraManager : Singleton<CameraManager>, IManager
     {
-        
-    }
+        public Camera gameplayCamera;
+        public CinemachineStateDrivenCamera _stateDrivenCamera;
 
-    public Camera GetGameplayCamera()
-    {
-        return gameplayCamera.GetComponent<Camera>();
-    }
+        public Camera GetGameplayCamera()
+        {
+            return gameplayCamera.GetComponent<Camera>();
+        }
 
-    public void LookAtPlayer(Transform playerTransform)
-    {
-        framingCamera.LookAt = playerTransform;
+        public void Initialize()
+        {
+            
+        }
     }
-
-    public void FollowPlayer(Transform playerTransform)
-    {
-        framingCamera.Follow = playerTransform;
-    }
-
-    
 }

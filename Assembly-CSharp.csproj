@@ -27,7 +27,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_12;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;MIRROR;MIRROR_17_0_OR_NEWER;MIRROR_18_0_OR_NEWER;MIRROR_24_0_OR_NEWER;MIRROR_26_0_OR_NEWER;MIRROR_27_0_OR_NEWER;MIRROR_28_0_OR_NEWER;MIRROR_29_0_OR_NEWER;MIRROR_30_0_OR_NEWER;MIRROR_30_5_2_OR_NEWER;MIRROR_32_1_2_OR_NEWER;MIRROR_32_1_4_OR_NEWER;MIRROR_35_0_OR_NEWER;MIRROR_35_1_OR_NEWER;MIRROR_37_0_OR_NEWER;MIRROR_38_0_OR_NEWER;MIRROR_39_0_OR_NEWER;MIRROR_40_0_OR_NEWER;MIRROR_41_0_OR_NEWER;MIRROR_42_0_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_12;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;MIRROR;MIRROR_17_0_OR_NEWER;MIRROR_18_0_OR_NEWER;MIRROR_24_0_OR_NEWER;MIRROR_26_0_OR_NEWER;MIRROR_27_0_OR_NEWER;MIRROR_28_0_OR_NEWER;MIRROR_29_0_OR_NEWER;MIRROR_30_0_OR_NEWER;MIRROR_30_5_2_OR_NEWER;MIRROR_32_1_2_OR_NEWER;MIRROR_32_1_4_OR_NEWER;MIRROR_35_0_OR_NEWER;MIRROR_35_1_OR_NEWER;MIRROR_37_0_OR_NEWER;MIRROR_38_0_OR_NEWER;MIRROR_39_0_OR_NEWER;MIRROR_40_0_OR_NEWER;MIRROR_41_0_OR_NEWER;MIRROR_42_0_OR_NEWER;MIRROR_43_0_OR_NEWER;MIRROR_44_0_OR_NEWER;MIRROR_46_0_OR_NEWER;PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER;GRIFFIN;GRIFFIN_2021;DREAMTECK_SPLINES;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;DEVELOPMENT_BUILD</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn></NoWarn>
@@ -52,131 +52,322 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Collision\BaseColliderEvent.cs" />
-     <Compile Include="Assets\Low Poly Guns\Scripts\GunsMenu.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerBehavior.cs" />
-     <Compile Include="Assets\Scripts\Collision\BulletCollisionEvent.cs" />
-     <Compile Include="Assets\Scripts\MyColliderBehavior.cs" />
-     <Compile Include="Assets\Scripts\ProjectileBehavior.cs" />
-     <Compile Include="Assets\Low Poly Guns\Scripts\GunView.cs" />
-     <Compile Include="Assets\Scripts\UI\UIController.cs" />
-     <Compile Include="Assets\Scripts\GunBehavior.cs" />
-     <Compile Include="Assets\Scripts\Manager\GlobalManager.cs" />
-     <Compile Include="Assets\Scripts\Utilities\Singleton.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerMovementBehavior.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerWeaponBehavior.cs" />
-     <Compile Include="Assets\Scripts\Utilities\MySerializedDictionary.cs" />
-     <Compile Include="Assets\Scripts\Manager\CameraManager.cs" />
-     <Compile Include="Assets\Scripts\Manager\UIManager.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerAnimatorBehavior.cs" />
-     <Compile Include="Assets\Scripts\Manager\WeaponManager.cs" />
-     <Compile Include="Assets\Scripts\Utilities\StringUtil.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\EulerAnglesXTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\AudioManager.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\LocalEulerAnglesZTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\LocalScaleZTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\CancelAllTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\Core\ITween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\MaterialAlphaTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\CanvasGroupExtend.cs" />
-     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\WindowManager.cs" />
-     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\InputUI.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\AnchoredPositionYTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\EulerAnglesYTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\LocalPositionYTween.cs" />
+     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
      <Compile Include="Assets\Beautiful Interface\Tweens\LocalEulerAnglesTween.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\SplineExtrusion.cs" />
+     <Compile Include="Assets\Scripts\Collision\BaseColliderEvent.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NtpSyncModule.cs" />
+     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
+     <Compile Include="Assets\Low Poly Guns\Scripts\GunsMenu.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\INetEventListener.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\MaterialAlphaTween.cs" />
+     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\BasePanel.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\ValueFloatTween.cs" />
+     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Samples\Pinwheel Studio\Scripts\GFpsCounter.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\LocalPositionZTween.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\SimpleChannel.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\FastBitConverter.cs" />
      <Compile Include="Assets\Beautiful Interface\Tweens\PositionTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\LocalScaleYTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Demo\Scripts\Multiplayer.cs" />
-     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\ButtonUI.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetEndPoint.cs" />
      <Compile Include="Assets\Beautiful Interface\Tweens\PositionYTween.cs" />
+     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Samples\Pinwheel Studio\Scripts\GCameraBuoyancyController.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerBehavior.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\EulerAnglesXTween.cs" />
+     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\CanvasGroupExtend.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleSower.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\SourceMesh.cs" />
+     <Compile Include="Assets\ConsolePro\ConsoleProDebug.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetSerializer.cs" />
+     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\ToggleUI.cs" />
+     <Compile Include="Assets\Scripts\Collision\BulletCollisionEvent.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetDataWriter.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\ReliableChannel.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\AudioSourceVolumeTween.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetSocket.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\TextMeshAlphaTween.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\LocalEulerAnglesXTween.cs" />
+     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\ButtonGroup.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\Bezier\SplineNode.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\AnchoredPositionXTween.cs" />
+     <Compile Include="Assets\Scripts\MyColliderBehavior.cs" />
+     <Compile Include="Assets\Scripts\Manager\WeaponManager.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetPacket.cs" />
+     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Samples\Pinwheel Studio\Scripts\GRuntimeTexturePainter.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
+     <Compile Include="Assets\Scripts\Manager\LoadManager.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\LocalScaleZTween.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\Utils\UOUtility.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleFollowSpline.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\PositionXTween.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NatPunchModule.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\ValueColorTween.cs" />
+     <Compile Include="Assets\Scripts\ProjectileBehavior.cs" />
+     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\InputUI.cs" />
+     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Samples\Pinwheel Studio\Scripts\GTakeScreenshot.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetDataReader.cs" />
+     <Compile Include="Assets\Scripts\Player\Utils\IPlayerBehavior.cs" />
+     <Compile Include="Assets\Scripts\Utils\StringUtil.cs" />
+     <Compile Include="Assets\Beautiful Interface\Demo\Scripts\Title.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleContortAlong.cs" />
+     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\ButtonUI.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetPeer.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\GraphicAlphaTween.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\SpriteRendererAlphaTween.cs" />
+     <Compile Include="Assets\Scripts\UI\UIErrorMessageController.cs" />
+     <Compile Include="Assets\Beautiful Interface\Demo\Scripts\Reset.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\Utils\MeshUtility.cs" />
+     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\AudioManager.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\PositionZTween.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetConstants.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerAttributeSystem.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleGrowingRoot.cs" />
+     <Compile Include="Assets\Low Poly Guns\Scripts\GunView.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\Bezier\CubicBezierCurve.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\SplineMeshTiling.cs" />
+     <Compile Include="Assets\Scripts\UI\UITest.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetThread.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\MeshVertex.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\LocalScaleTween.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\ExtrusionSegment.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\LocalPositionYTween.cs" />
+     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\Core\ITween.cs" />
+     <Compile Include="Assets\Scripts\Manager\GameplayManager.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\LocalScaleXTween.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\DelayedInvokeTween.cs" />
+     <Compile Include="Assets\Scripts\Collision\CharacterCollisionEvent.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\EulerAnglesTween.cs" />
+     <Compile Include="Assets\Scripts\UI\UIController.cs" />
+     <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\MaterialColorTween.cs" />
+     <Compile Include="Assets\Scripts\Inventory\LootBehavior.cs" />
+     <Compile Include="Assets\Beautiful Interface\Demo\Scripts\Multiplayer.cs" />
+     <Compile Include="Assets\Scripts\UI\Inventory\InventorySlotUI.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\Example\RopeBuilder.cs" />
+     <Compile Include="Assets\Scripts\Utils\MyGUIDHelper.cs" />
+     <Compile Include="Assets\Beautiful Interface\Demo\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\SequencedChannel.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\LocalScaleYTween.cs" />
+     <Compile Include="Assets\Scripts\Inventory\InventoryItem.cs" />
      <Compile Include="Assets\Beautiful Interface\Tweens\LocalEulerAnglesYTween.cs" />
      <Compile Include="Assets\Beautiful Interface\Elements\Scripts\Notification.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\PositionZTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Demo\Scripts\Register.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\AnchoredPositionXTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\Core\Easer.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\LocalScaleXTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\BasePanel.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\TextMeshAlphaTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\Core\EaseType.cs" />
-     <Compile Include="Assets\Beautiful Interface\Demo\Scripts\MainMenu.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\LocalPositionXTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\LoaderUI.cs" />
-     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\TextUI.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\ValueFloatTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\CanvasGroupAlphaTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\ImageFillAmountTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\LocalScaleTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\GraphicAlphaTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\EulerAnglesTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\SpriteRendererAlphaTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\PositionXTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Demo\Scripts\Login.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\AudioSourcePitchTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\LocalEulerAnglesXTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\EulerAnglesZTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\Core\Tween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\LocalPositionZTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\GraphicColorTween.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\ConsoleProRemoteServer.cs" />
      <Compile Include="Assets\Beautiful Interface\Tweens\LocalPositionTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\ButtonGroup.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\ValueColorTween.cs" />
+     <Compile Include="Assets\Beautiful Interface\Demo\Scripts\Register.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\Core\Easer.cs" />
+     <Compile Include="Assets\Scripts\GunBehavior.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetDebug.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleTrack.cs" />
      <Compile Include="Assets\Beautiful Interface\Tweens\SpriteRendererColorTween.cs" />
+     <Compile Include="Assets\Scripts\Manager\GlobalManager.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\EulerAnglesYTween.cs" />
+     <Compile Include="Assets\Scripts\Utils\Singleton.cs" />
+     <Compile Include="Assets\Scripts\UI\Inventory\InventoryUI.cs" />
+     <Compile Include="Assets\Scripts\UI\RoomCardController.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetManager.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\AnchoredPositionYTween.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\Utils\CameraUtility.cs" />
+     <Compile Include="Assets\Scripts\UI\UIKillInfoCard.cs" />
+     <Compile Include="Assets\Scripts\Manager\EventCodeManager.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\CancelAllTween.cs" />
+     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\WindowManager.cs" />
+     <Compile Include="Assets\Scripts\Player\Utils\IPlayerSystem.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\Bezier\Spline.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\MeshBender.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetPeerCollection.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerMovementBehavior.cs" />
+     <Compile Include="Assets\Scripts\Manager\MessageManager.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerWeaponBehavior.cs" />
+     <Compile Include="Assets\Scripts\UI\MainMenu\MainMenuController.cs" />
+     <Compile Include="Assets\Scripts\Utils\MySerializedDictionary.cs" />
+     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\TextUI.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\Bezier\CurveSample.cs" />
      <Compile Include="Assets\Beautiful Interface\Tweens\AnchoredPositionTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\AudioSourceVolumeTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Demo\Scripts\Reset.cs" />
-     <Compile Include="Assets\Beautiful Interface\Demo\Scripts\Title.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\MaterialColorTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Tweens\DelayedInvokeTween.cs" />
-     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\ToggleUI.cs" />
-     <Compile Include="Assets\Scripts\UI\UITest.cs" />
-     <Compile Include="Assets\GameDev.tv Assets\Scripts\UI\Inventories\InventorySlotUI.cs" />
-     <Compile Include="Assets\GameDev.tv Assets\Scripts\Utils\UI\Dragging\IDragSource.cs" />
-     <Compile Include="Assets\GameDev.tv Assets\Scripts\UI\Inventories\InventoryDragItem.cs" />
-     <Compile Include="Assets\GameDev.tv Assets\Scripts\Saving\SaveableEntity.cs" />
-     <Compile Include="Assets\GameDev.tv Assets\Scripts\Saving\SerializableVector3.cs" />
-     <Compile Include="Assets\GameDev.tv Assets\Scripts\Utils\UI\Dragging\DragItem.cs" />
-     <Compile Include="Assets\GameDev.tv Assets\Scripts\Utils\UI\Tooltips\TooltipSpawner.cs" />
-     <Compile Include="Assets\GameDev.tv Assets\Scripts\UI\Inventories\InventoryItemIcon.cs" />
-     <Compile Include="Assets\GameDev.tv Assets\Scripts\Utils\UI\Dragging\IDragContainer.cs" />
-     <Compile Include="Assets\GameDev.tv Assets\Scripts\Saving\SavingSystem.cs" />
-     <Compile Include="Assets\GameDev.tv Assets\Scripts\Utils\PeristentObjectSpawner.cs" />
-     <Compile Include="Assets\GameDev.tv Assets\Scripts\Utils\LazyValue.cs" />
-     <Compile Include="Assets\GameDev.tv Assets\Scripts\Saving\ISaveable.cs" />
-     <Compile Include="Assets\GameDev.tv Assets\Scripts\Utils\UI\Dragging\IDragDestination.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleTentacle.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetUtils.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\AudioSourcePitchTween.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
+     <Compile Include="Assets\Scripts\Manager\MainMenuManger.cs" />
+     <Compile Include="Assets\Scripts\Manager\CameraManager.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\Core\EaseType.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\LocalPositionXTween.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\CanvasGroupAlphaTween.cs" />
+     <Compile Include="Assets\Scripts\Manager\NetworkManager.cs" />
+     <Compile Include="Assets\Beautiful Interface\Demo\Scripts\Login.cs" />
+     <Compile Include="Assets\Scripts\UI\PlayerCardController.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
+     <Compile Include="Assets\Scripts\Manager\Utils\IManager.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\Core\Tween.cs" />
+     <Compile Include="Assets\Scripts\Manager\UIManager.cs" />
+     <Compile Include="Assets\Scripts\UI\UIKillPad.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\LocalEulerAnglesZTween.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerAnimatorBehavior.cs" />
+     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetPacketPool.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\EulerAnglesZTween.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
+     <Compile Include="Assets\Scripts\UI\UISettingPanel.cs" />
+     <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\ImageFillAmountTween.cs" />
+     <Compile Include="Assets\Scripts\ItemSpawner.cs" />
+     <Compile Include="Assets\Beautiful Interface\Tweens\GraphicColorTween.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
+     <Compile Include="Assets\Beautiful Interface\Elements\Scripts\LoaderUI.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\Bezier\SplineSmoother.cs" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_BlinnPhong_4Splats.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\ErosionTool\ErosionTexturer.shader" />
      <None Include="Assets\Shader\NewSurfaceShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\NoisePainter.shader" />
      <None Include="Assets\Shader\Chapter7-NormalMapTangentSpace.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_Lambert_4Splats.shader" />
      <None Include="Assets\Shader\NormalShader.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\MaskPainter.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\CGIncludes\GriffinCG.cginc" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\TextureTool\Blur.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\LivePreview\GeometryLivePreview.shader" />
+     <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\StampTool\StampToolCommon.cginc" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\SplatPainter.shader" />
+     <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-     <None Include="Assets\_Udemy Online Game Assets\Models\Kenney Blaster Kit\License.txt" />
-     <None Include="Assets\_Udemy Online Game Assets\Audio\SFX\INFO.txt" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\SplineTool\PathPainterSplat.shader" />
+     <None Include="Assets\Udemy Online Game Assets\Models\Kenney Blaster Kit\License.txt" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_BlinnPhong_GradientLookup.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_Lambert_8Splats.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\PaintToolCommon.cginc" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\Utilities\CopyTexture.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\ElevationPainter.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_PBR_VertexColor.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_BlinnPhong_ColorMap.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Samples\Pinwheel Studio\Shaders\ThunderParticles.cginc" />
+     <None Include="Assets\Udemy Online Game Assets\Audio\SFX\INFO.txt" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\Utilities\UtilitiesCommon.cginc" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\Topographic\Topographic.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\Utilities\InteractiveGrassVectorField.shader" />
+     <None Include="Assets\ScriptTemplates\56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\SplineTool\PathPainterMetallicSmoothness.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_Lambert_ColorMap.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\Utilities\ChannelToGrayscale.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\LivePreview\LivePreviewCommon.cginc" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\changelog.txt" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Demo\Water.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\Utilities\SolidColor.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\TextureTool\WarpFilter.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets\_Udemy Online Game Assets\Audio\Music\INFO.txt" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\SubDivPainter.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Foliage\GriffinBillboardCommon.cginc" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\LivePreview\GrassPreview.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_PBR_4Splats.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\TextureTool\InvertFilter.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\LivePreview\ErosionLivePreview.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\PainterCursorProjector.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\ErosionTool\ThermalErosion.compute" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\ErosionTool\InitErosion.compute" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\SplineTool\SplineMask.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\SmoothnessPainter.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\HeightSamplingPainter.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\TextureTool\TerrainPerPixelNormalMapRenderer.shader" />
+     <None Include="Assets\Udemy Online Game Assets\Audio\Music\INFO.txt" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\CGIncludes\GriffinGrassCommon.cginc" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_Lambert_VertexColor.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\TextureTool\TextureToolCommon.cginc" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\AlbedoPainter.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\SplineTool\SplineGizmos.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\TextureTool\NoiseMapGenerator.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\StampTool\TextureStamperMask.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\TextureTool\SteepnessMapGenerator.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\RemapPainter.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Samples\Third Parties Notice.txt" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\TextureTool\CurveFilter.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Foliage\BuiltinRP_Grass.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\TextureTool\DistributionMapGenerator.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Foliage\BuiltinRP_GrassInteractive.shader" />
+     <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\Utilities\UnlitChannelMask.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\CGIncludes\GriffinSplatCommon.cginc" />
+     <None Include="Assets\ScriptTemplates\52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_PBR_GradientLookup.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\Utilities\HeightMapDecodeGrayscale.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\TextureTool\HeightMapFromMesh.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Photon\PhotonUnityNetworking\readme.txt" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\Utilities\SubDivisionVisualizer.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\LivePreview\VisibilityLivePreview2.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\ErosionTool\HydraullicErosion.compute" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Samples\Pinwheel Studio\Shaders\Thunder.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\BillboardTool\BillboardCreatorNormal.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_BlinnPhong_4Splats4Normals.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\Fonts\zh_CN.txt" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\LivePreview\Mask4Channels.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Foliage\BuiltinRP_GrassBillboard.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\LivePreview\SubdivLivePreview2.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\Utilities\DrawTextureArraySlice.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\TerracePainter.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\ErosionTool\ApplyErosion.shader" />
      <None Include="Assets\Beautiful Interface\Elements\Fonts\Chakra_Petch\OFL.txt" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\TextureTool\BlurRadius.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\SplineTool\SplineToolCommon.cginc" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_BlinnPhong_8Splats.shader" />
+     <None Include="Assets\ScriptTemplates\55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\BillboardTool\BillboardCreatorAtlas.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\Utilities\GeometricalHeightmapRenderer.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\LivePreview\Wireframe.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\TextureTool\BlendMapGenerator.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\MetallicPainter.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\VisibilityPainter.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_BlinnPhong_VertexColor.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\ErosionTool\ErosionToolCommon.cginc" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_PBR_4Splats4Normals.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\StampTool\Stamper.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_PBR_ColorMap.shader" />
+     <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\ErosionTool\ErosionDataView.shader" />
+     <None Include="Assets\ScriptTemplates\50-Mirror__Network Manager-NewNetworkManager.cs.txt" />
      <None Include="Assets\PolygonCity\unity3d.txt" />
      <None Include="Assets\PolygonCity\Change_Log.txt" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_Lambert_GradientLookup.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\SplineTool\PathPainterAlbedo.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\ScriptTemplates\54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_PBR_8Splats.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\PainterCursor.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\LivePreview\MaskVisualizer.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\SplineTool\RampMaker.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\ConditionalPainting.cginc" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\TextureTool\TerrainNormalMapRenderer.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Foliage\TreeBillboard_NoASESupport.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\TextureTool\SplatsToAlbedo.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\Utilities\SubDivisionMap.shader" />
+     <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_Lambert_4Splats4Normals.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\TextureTool\StepFilter.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\Utilities\HeightmapConverterEncodeRG.shader" />
+     <None Include="Assets\SplineMesh\Doc.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\ErosionTool\FetchWorldData.shader" />
      <None Include="Assets\Shader\RampShader.shader" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.12f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -399,6 +590,12 @@
  </Reference>
  <Reference Include="UnityEditor.UnityConnectModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.12f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>E:/UnityProjects/Arena - Fate/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>E:/UnityProjects/Arena - Fate/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="RainbowCore">
  <HintPath>E:/UnityProjects/Arena - Fate/Assets/Plugins/RainbowAssets/!Core/Assemblies/RainbowCore.dll</HintPath>
@@ -778,8 +975,8 @@
  <Reference Include="Unity.Searcher.Editor">
  <HintPath>E:/UnityProjects/Arena - Fate/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.RenderPipelines.Core.Runtime">
- <HintPath>E:/UnityProjects/Arena - Fate/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>E:/UnityProjects/Arena - Fate/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder">
  <HintPath>E:/UnityProjects/Arena - Fate/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
@@ -807,6 +1004,9 @@
  </Reference>
  <Reference Include="Unity.PlasticSCM.Editor">
  <HintPath>E:/UnityProjects/Arena - Fate/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Runtime">
+ <HintPath>E:/UnityProjects/Arena - Fate/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Mathematics">
  <HintPath>E:/UnityProjects/Arena - Fate/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
@@ -846,6 +1046,54 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="PhotonChat.csproj">
+      <Project>{2385d27e-dbff-3579-dadf-f7f030083df2}</Project>
+      <Name>PhotonChat</Name>
+    </ProjectReference>
+    <ProjectReference Include="Pinwheel.Polaris.Editor.csproj">
+      <Project>{ff7e6ef7-0ab7-5500-475e-e187710a5c20}</Project>
+      <Name>Pinwheel.Polaris.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
+      <Project>{283c4c8a-a424-c9b4-1255-86f06692216e}</Project>
+      <Name>PhotonUnityNetworking.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
+      <Project>{06acf97b-19e8-f2f7-f8c0-45545a92b345}</Project>
+      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonRealtime.csproj">
+      <Project>{7c998520-b733-76ee-f865-033e409e18b6}</Project>
+      <Name>PhotonRealtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
+      <Project>{09323728-4cd4-0d3d-2d7a-a059fc74f243}</Project>
+      <Name>PunDemos.DemoHubEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
+      <Project>{85943774-e142-74fd-673b-09c3870acc31}</Project>
+      <Name>PhotonUnityNetworking.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="Pinwheel.Polaris.Runtime.csproj">
+      <Project>{4db5bd9f-d224-ed88-d88a-98abb553a4f7}</Project>
+      <Name>Pinwheel.Polaris.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.csproj">
+      <Project>{493d7693-f283-09f9-8a20-54beb95c3c5e}</Project>
+      <Name>PhotonUnityNetworking</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
+      <Project>{2fee3f35-833d-54c7-4c25-ae8f3bbb19d7}</Project>
+      <Name>PhotonUnityNetworking.Demos</Name>
+    </ProjectReference>
+    <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
+      <Project>{66e8ab29-3435-f20a-bc48-8fffaea9be93}</Project>
+      <Name>PunDemos.DemoSlotcarEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
+      <Project>{11f91543-b819-6dbb-288d-4bac3800912a}</Project>
+      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

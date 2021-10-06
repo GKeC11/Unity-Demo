@@ -1,18 +1,21 @@
-
 using System.Collections.Generic;
 using UnityEngine;
+using Utils;
 
-public class WeaponManager : Singleton<WeaponManager>
+namespace Manager
 {
-    public GameObject[] _weaponePrefab;
-
-    private List<int> _weaponHash = new List<int>();
-
-    private void OnEnable()
+    public class WeaponManager : Singleton<WeaponManager>
     {
-        foreach (var weapon in _weaponePrefab)
+        public GameObject[] _weaponePrefab;
+
+        private List<int> _weaponHash = new List<int>();
+
+        private void OnEnable()
         {
-            _weaponHash.Add(weapon.name.GetHashCode());
+            foreach (var weapon in _weaponePrefab)
+            {
+                _weaponHash.Add(weapon.name.GetHashCode());
+            }
         }
     }
 }
