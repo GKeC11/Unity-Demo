@@ -3,16 +3,16 @@
 
 大厅界面
 
-![image](https://i.ibb.co/stsbTw7/ezgif1r.gif)
+![image](https://github.com/GKeC11/Unity-Demo/blob/master/img/ezgif1r.gif)
 
 背包和道具
 
-![image](https://i.ibb.co/SfvsBB9/ezgif2.gif)
+![image](https://github.com/GKeC11/Unity-Demo/blob/master/img/ezgif2.gif)
 
 暂停菜单
 
-![image](https://i.ibb.co/5MRHkKL/ezgif-3.gif)
+![image](https://github.com/GKeC11/Unity-Demo/blob/master/img/ezgif%203.gif)
 
 对♂射
 
-![image](https://i.ibb.co/FVK2cnt/ezgif-4.gif)
+![image](https://github.com/GKeC11/Unity-Demo/blob/master/img/ezgif%204.gif)
