@@ -3,4 +3,4 @@
 
 大厅界面
 
-![https://i.ibb.co/stsbTw7/ezgif1r.gif]
+!img[https://i.ibb.co/stsbTw7/ezgif1r.gif]
